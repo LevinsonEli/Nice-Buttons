@@ -1,0 +1,49 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: #3f69a5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+button {
+    background: #444;
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 5px;
+    padding: 18px 36px;
+    margin: 30px auto;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset 0.1px 0px 0px 0.1px  rgb(194, 87, 153);
+    
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+
+    transition-duration: 1.2s;
+  }
+
+.btn1:hover {
+    background: #444;
+    box-shadow: inset 400px 0 0 0 rgb(194, 87, 153);
+}
+
+.btn2:hover {
+    background: #444;
+    box-shadow: inset 0 400px 0 0 rgb(194, 87, 153);
+}
+
+.btn3:hover {
+    background: #444;
+    box-shadow: inset 400px 100px 0 0 rgb(194, 87, 153);
+}
+
+.btn4:hover {
+    background: #444;
+    box-shadow: inset 0 0 0 50px rgb(194, 87, 153);
+}
+
+
